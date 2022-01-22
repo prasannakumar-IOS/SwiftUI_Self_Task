@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct userLoginView: View {
+struct userDetailsView: View {
     
     @ObservedObject var user: userDetails
     @State var sectionIndex = 0

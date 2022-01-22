@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D485861427744E2A00C45611 /* customViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D485861327744E2A00C45611 /* customViews.swift */; };
-		D485861527744E2A00C45611 /* customViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D485861327744E2A00C45611 /* customViews.swift */; };
-		D4880D38276EDCD500755442 /* signUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4880D37276EDCD400755442 /* signUpPage.swift */; };
-		D4880D39276EDCD500755442 /* signUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4880D37276EDCD400755442 /* signUpPage.swift */; };
-		D4ACE2162797DA790007B3B5 /* userLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ACE2152797DA790007B3B5 /* userLoginView.swift */; };
-		D4ACE2172797DA790007B3B5 /* userLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ACE2152797DA790007B3B5 /* userLoginView.swift */; };
-		D4BD239D27968B9200D5B564 /* userDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BD239C27968B9200D5B564 /* userDetails.swift */; };
-		D4BD239E27968B9200D5B564 /* userDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BD239C27968B9200D5B564 /* userDetails.swift */; };
+		D446E10F279931D90022B977 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D446E10E279931D90022B977 /* UIColor+Additions.swift */; };
+		D446E110279931D90022B977 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D446E10E279931D90022B977 /* UIColor+Additions.swift */; };
+		D446E1122799743E0022B977 /* UserLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D446E1112799743E0022B977 /* UserLoginViewModel.swift */; };
+		D446E1132799743E0022B977 /* UserLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D446E1112799743E0022B977 /* UserLoginViewModel.swift */; };
+		D485861427744E2A00C45611 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D485861327744E2A00C45611 /* CustomViews.swift */; };
+		D485861527744E2A00C45611 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D485861327744E2A00C45611 /* CustomViews.swift */; };
+		D4880D38276EDCD500755442 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4880D37276EDCD400755442 /* SignUpPage.swift */; };
+		D4880D39276EDCD500755442 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4880D37276EDCD400755442 /* SignUpPage.swift */; };
+		D492A867279A88BE0035E973 /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A866279A88BE0035E973 /* UserDetailsView.swift */; };
+		D492A868279A88BE0035E973 /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492A866279A88BE0035E973 /* UserDetailsView.swift */; };
+		D4ACE2162797DA790007B3B5 /* AppUpdatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ACE2152797DA790007B3B5 /* AppUpdatesView.swift */; };
+		D4ACE2172797DA790007B3B5 /* AppUpdatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ACE2152797DA790007B3B5 /* AppUpdatesView.swift */; };
+		D4BD239D27968B9200D5B564 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BD239C27968B9200D5B564 /* UserDetails.swift */; };
+		D4BD239E27968B9200D5B564 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BD239C27968B9200D5B564 /* UserDetails.swift */; };
+		D4E8977D2799903100F8D31F /* NewAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E8977C2799903100F8D31F /* NewAppView.swift */; };
+		D4E8977E2799903100F8D31F /* NewAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E8977C2799903100F8D31F /* NewAppView.swift */; };
 		D4FCAF1F275B6311008437E3 /* prasannaSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FCAF0F275B6310008437E3 /* prasannaSwiftUIApp.swift */; };
 		D4FCAF20275B6311008437E3 /* prasannaSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FCAF0F275B6310008437E3 /* prasannaSwiftUIApp.swift */; };
 		D4FCAF21275B6311008437E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FCAF10275B6310008437E3 /* ContentView.swift */; };
@@ -24,10 +32,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D485861327744E2A00C45611 /* customViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customViews.swift; sourceTree = "<group>"; };
-		D4880D37276EDCD400755442 /* signUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpPage.swift; sourceTree = "<group>"; };
-		D4ACE2152797DA790007B3B5 /* userLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userLoginView.swift; sourceTree = "<group>"; };
-		D4BD239C27968B9200D5B564 /* userDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDetails.swift; sourceTree = "<group>"; };
+		D446E10E279931D90022B977 /* UIColor+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		D446E1112799743E0022B977 /* UserLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewModel.swift; sourceTree = "<group>"; };
+		D485861327744E2A00C45611 /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
+		D4880D37276EDCD400755442 /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
+		D492A866279A88BE0035E973 /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		D4ACE2152797DA790007B3B5 /* AppUpdatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUpdatesView.swift; sourceTree = "<group>"; };
+		D4BD239C27968B9200D5B564 /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		D4E8977C2799903100F8D31F /* NewAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAppView.swift; sourceTree = "<group>"; };
 		D4FCAF0F275B6310008437E3 /* prasannaSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prasannaSwiftUIApp.swift; sourceTree = "<group>"; };
 		D4FCAF10275B6310008437E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D4FCAF11275B6311008437E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +66,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D492A869279A8A620035E973 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				D446E10E279931D90022B977 /* UIColor+Additions.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		D492A86A279ACDB80035E973 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D4BD239C27968B9200D5B564 /* UserDetails.swift */,
+				D446E1112799743E0022B977 /* UserLoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D492A86B279ACF570035E973 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D485861327744E2A00C45611 /* CustomViews.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D4E8977B27997E6B00F8D31F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4880D37276EDCD400755442 /* SignUpPage.swift */,
+				D4FCAF10275B6310008437E3 /* ContentView.swift */,
+				D4ACE2152797DA790007B3B5 /* AppUpdatesView.swift */,
+				D492A866279A88BE0035E973 /* UserDetailsView.swift */,
+				D4E8977C2799903100F8D31F /* NewAppView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D4FCAF09275B630F008437E3 = {
 			isa = PBXGroup;
 			children = (
@@ -67,11 +116,10 @@
 			isa = PBXGroup;
 			children = (
 				D4FCAF0F275B6310008437E3 /* prasannaSwiftUIApp.swift */,
-				D4FCAF10275B6310008437E3 /* ContentView.swift */,
-				D4ACE2152797DA790007B3B5 /* userLoginView.swift */,
-				D4BD239C27968B9200D5B564 /* userDetails.swift */,
-				D4880D37276EDCD400755442 /* signUpPage.swift */,
-				D485861327744E2A00C45611 /* customViews.swift */,
+				D4E8977B27997E6B00F8D31F /* View */,
+				D492A86A279ACDB80035E973 /* ViewModel */,
+				D492A86B279ACF570035E973 /* Helper */,
+				D492A869279A8A620035E973 /* extension */,
 				D4FCAF11275B6311008437E3 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -192,12 +240,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E8977D2799903100F8D31F /* NewAppView.swift in Sources */,
 				D4FCAF21275B6311008437E3 /* ContentView.swift in Sources */,
-				D4ACE2162797DA790007B3B5 /* userLoginView.swift in Sources */,
-				D485861427744E2A00C45611 /* customViews.swift in Sources */,
-				D4880D38276EDCD500755442 /* signUpPage.swift in Sources */,
-				D4BD239D27968B9200D5B564 /* userDetails.swift in Sources */,
+				D492A867279A88BE0035E973 /* UserDetailsView.swift in Sources */,
+				D4ACE2162797DA790007B3B5 /* AppUpdatesView.swift in Sources */,
+				D485861427744E2A00C45611 /* CustomViews.swift in Sources */,
+				D4880D38276EDCD500755442 /* SignUpPage.swift in Sources */,
+				D4BD239D27968B9200D5B564 /* UserDetails.swift in Sources */,
 				D4FCAF1F275B6311008437E3 /* prasannaSwiftUIApp.swift in Sources */,
+				D446E10F279931D90022B977 /* UIColor+Additions.swift in Sources */,
+				D446E1122799743E0022B977 /* UserLoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,12 +257,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E8977E2799903100F8D31F /* NewAppView.swift in Sources */,
 				D4FCAF22275B6311008437E3 /* ContentView.swift in Sources */,
-				D4ACE2172797DA790007B3B5 /* userLoginView.swift in Sources */,
-				D485861527744E2A00C45611 /* customViews.swift in Sources */,
-				D4880D39276EDCD500755442 /* signUpPage.swift in Sources */,
-				D4BD239E27968B9200D5B564 /* userDetails.swift in Sources */,
+				D492A868279A88BE0035E973 /* UserDetailsView.swift in Sources */,
+				D4ACE2172797DA790007B3B5 /* AppUpdatesView.swift in Sources */,
+				D485861527744E2A00C45611 /* CustomViews.swift in Sources */,
+				D4880D39276EDCD500755442 /* SignUpPage.swift in Sources */,
+				D4BD239E27968B9200D5B564 /* UserDetails.swift in Sources */,
 				D4FCAF20275B6311008437E3 /* prasannaSwiftUIApp.swift in Sources */,
+				D446E110279931D90022B977 /* UIColor+Additions.swift in Sources */,
+				D446E1132799743E0022B977 /* UserLoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

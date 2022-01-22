@@ -51,7 +51,7 @@ struct ContentView: View {
                                 .frame(height: 50)
                                 .background()
                                 .cornerRadius(5)
-                            NavigationLink(destination: userLoginView(user: user), isActive: $isLogInOk) {
+                            NavigationLink(destination: userDetailsView(user: user), isActive: $isLogInOk) {
                                 Button(action: {
                                     self.isLogInOk = true
                                 }) {

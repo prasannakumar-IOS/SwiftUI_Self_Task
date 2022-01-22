@@ -42,12 +42,12 @@ struct signUpPage: View {
                             .frame(maxWidth: .infinity, alignment: .leading)
                         TextField("First Name", text: $user.name)
                         Group {
-                            Text("User Name:")
+                            Text("User ID")
                                 .font(.system(size: 20))
                                 .fontWeight(.bold)
                                 .foregroundColor(.white)
                                 .frame(maxWidth: .infinity, alignment: .leading)
-                            TextField("User Name", text: $user.userID)
+                            TextField("User ID", text: $user.userID)
                         }
                         Text("Password:")
                             .font(.system(size: 20))
@@ -80,6 +80,7 @@ struct signUpPage: View {
                             .frame(height: 40)
                             .background(Color.yellow)
                             .cornerRadius(6)
+                            .accentColor(.yellow)
                         }
                         Text("Suggession Swift")
                             .font(.system(size: 20))
@@ -88,9 +89,13 @@ struct signUpPage: View {
                             .frame(maxWidth: .infinity, alignment: .leading)
                         TextField("numberSwift", text: $suggessionSwiftString)
                             .keyboardType(.decimalPad)
-                        Slider(value: $suggessionSwift, in: 0...10) {_ in
+                        Slider(value: $suggessionSwift, in: 0...10, step: 1) {_ in
                             suggessionSwiftString = String(suggessionSwift)
                         }
+                        .accentColor(.yellow)
+                        .padding(EdgeInsets(top: 10, leading: 0, bottom: 10, trailing: 0))
+                        .border(Color.yellow, width: 2)
+                        .padding(EdgeInsets(top: 10, leading: 0, bottom: 0, trailing: 0))
                         Toggle(isOn: $isPermissionOk) {
                             Text("Save Details")
                                 .font(.system(size: 20))
