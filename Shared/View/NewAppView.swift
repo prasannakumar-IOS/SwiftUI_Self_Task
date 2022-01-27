@@ -19,35 +19,39 @@ struct newAppView: View {
     @Environment(\.dismiss) private var dismiss
     
     var body: some View {
+        ScrollView {
         VStack {
             Spacer().frame(height: 31)
             Text("Name")
-                .foregroundColor(.black45)
-                .font(Font.system(size: 14))
                 .frame(maxWidth: .infinity, alignment: .leading)
+                .foregroundColor(.black45)
+                .font(Font.system(size: 16))
                 .padding(.leading, 31)
             TextField("",text: $name)
+                .padding()
                 .frame(height: 40)
                 .foregroundColor(.black)
                 .background(Color.steel12)
-                .padding(EdgeInsets(top: 0, leading: 31, bottom: 0, trailing: 31))
+                .padding(EdgeInsets(top: 0, leading: 31, bottom: 36, trailing: 31))
             Text("Version")
                 .foregroundColor(.black45)
-                .font(Font.system(size: 14))
+                .font(Font.system(size: 16))
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.leading, 31)
             TextField("",text: $version)
+                .padding()
                 .frame(height: 40)
                 .foregroundColor(.black)
                 .background(Color.steel12)
                 .padding(EdgeInsets(top: 0, leading: 31, bottom: 36, trailing: 31))
             Text("Category")
                 .foregroundColor(.black45)
-                .font(Font.system(size: 14))
+                .font(Font.system(size: 16))
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.leading, 31)
             ZStack {
                 TextField("",text: $pickerOptions[sectionIndex])
+                    .padding()
                     .frame(height: 40)
                     .foregroundColor(Color.black)
                     .background(Color.steel12)
@@ -93,4 +97,4 @@ struct newAppView: View {
         })
     }
 }
-
+}
