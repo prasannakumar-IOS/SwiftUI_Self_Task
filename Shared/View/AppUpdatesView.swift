@@ -40,6 +40,7 @@ struct userLoginView: View {
                                     Text("Version \(app.appVersion)")
                                         .font(Font.system(size: 10))
                                         .fontWeight(.light)
+                                        .padding(.bottom, 6)
                                     Text(app.appCategory)
                                         .foregroundColor(.darkishPink60)
                                         .font(Font.system(size: 10))
@@ -86,17 +87,18 @@ struct userLoginView: View {
                                     .cornerRadius(20)
                                 VStack(alignment: .leading, spacing: 0) {
                                     Text("\(updatedApp.appName)")
-                                        .font(Font.system(size: 20))
+                                        .font(Font.system(size: 18))
                                         .fontWeight(.medium)
                                     Text("Version \(updatedApp.appVersion)")
-                                        .font(Font.system(size: 11))
+                                        .font(Font.system(size: 10))
                                         .fontWeight(.light)
+                                        .padding(.bottom, 6)
                                     Text("\(updatedApp.appCategory)")
                                         .foregroundColor(.darkishPink60)
-                                        .font(Font.system(size: 11))
+                                        .font(Font.system(size: 10))
                                         .fontWeight(.light)
-                                }.padding(EdgeInsets(top: 15, leading: 0, bottom: 15, trailing: 0))
-                            }.padding(EdgeInsets(top: 14, leading: 0, bottom: 14, trailing: 0))
+                                }.padding(EdgeInsets(top: 14, leading: 0, bottom: 14, trailing: 0))
+                            }
                         }
                     }.headerProminence(.increased)
                 }
