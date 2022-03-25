@@ -70,8 +70,10 @@ struct userLoginView: View {
                                 .cornerRadius(20)
                             }
                         }
-                        
-                    }.headerProminence(.increased)
+                        .onDelete(perform: {_ in })
+                        .onMove(perform: {_,_  in})
+                    }
+//                    .headerProminence(.increased)
                     Section(header:
                                 Text("Updated Recently")
                                 .foregroundColor(Color.black)
@@ -100,8 +102,10 @@ struct userLoginView: View {
                                 }.padding(EdgeInsets(top: 14, leading: 0, bottom: 14, trailing: 0))
                             }
                         }
-                    }.headerProminence(.increased)
+                    }
+//                    .headerProminence(.increased)
                 }
+                .toolbar { EditButton() }
                 .refreshable {
                     print("Do your refresh work here")
                     isPickerDisplay = false
@@ -111,7 +115,6 @@ struct userLoginView: View {
                     UITableView.appearance().backgroundColor = UIColor.white
                     UITableViewCell.appearance().backgroundColor = UIColor.white
                 }
-                
                 .navigationBarBackButtonHidden(true)
                 .navigationBarTitle(Text("Updates")
                                         .font(Font.system(size: 23))
